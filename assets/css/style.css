@@ -618,10 +618,10 @@ details p {
 
 .signup-input {
     flex: 1;
-    padding: 10px 14px;
-    font-size: 1em;
+    padding: 12px 18px;
+    font-size: 1.05em;
     border: 1px solid var(--color-border);
-    border-radius: var(--radius);
+    border-radius: 24px;
     background: var(--color-card-bg);
     color: var(--color-text);
     font-family: inherit;
@@ -635,8 +635,6 @@ details p {
 
 .signup-btn {
     flex-shrink: 0;
-    font-size: 0.95em;
-    padding: 10px 20px;
 }
 
 @media (max-width: 600px) {
