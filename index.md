@@ -54,6 +54,20 @@ permalink: /
         </div>
     </div>
     <p class="text-center text-muted">That's it. No account to create. No WiFi camera to mount. No subscription to start.</p>
+    <div class="screenshot-row">
+        <figure class="screenshot">
+            <img src="{{ '/assets/images/screenshot-role-select.png' | relative_url }}" alt="EarHorn role selection screen showing Baby Unit and Parent Unit options" loading="lazy" width="280">
+            <figcaption>Choose a role</figcaption>
+        </figure>
+        <figure class="screenshot">
+            <img src="{{ '/assets/images/screenshot-baby.png' | relative_url }}" alt="EarHorn baby monitoring view with audio visualization graph and threshold slider" loading="lazy" width="280">
+            <figcaption>Baby monitors sound</figcaption>
+        </figure>
+        <figure class="screenshot">
+            <img src="{{ '/assets/images/screenshot-parent.png' | relative_url }}" alt="EarHorn parent view showing connected status, battery level, and audio graph" loading="lazy" width="280">
+            <figcaption>Parent listens in</figcaption>
+        </figure>
+    </div>
 </section>
 
 <section class="features-section">

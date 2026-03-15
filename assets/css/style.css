@@ -396,6 +396,45 @@ a:hover {
     }
 }
 
+/* ── Screenshot Row ─────────────────────────────── */
+.screenshot-row {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+.screenshot {
+    text-align: center;
+    margin: 0;
+}
+
+.screenshot img {
+    border-radius: var(--radius);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+.screenshot figcaption {
+    margin-top: 8px;
+    font-size: 0.85em;
+    color: var(--color-text-muted);
+}
+
+@media (max-width: 600px) {
+    .screenshot-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .screenshot img {
+        width: 220px;
+    }
+}
+
 /* ── Features Section ───────────────────────────── */
 .features-section {
     padding: 2em 0;
