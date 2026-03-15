@@ -1,0 +1,9 @@
+title: EarHorn
+description: iOS baby monitor app. Two phones? Good to go.
+url: https://earhorn.app
+baseurl: ""
+
+permalink: /blog/:title/
+
+exclude:
+  - README.md

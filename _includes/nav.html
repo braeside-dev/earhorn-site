@@ -1,0 +1,13 @@
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="{{ '/' | relative_url }}">
+            EarHorn
+        </a>
+        <ul class="nav-links">
+            <li><a href="{{ '/blog' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a></li>
+            <li><a href="{{ '/faq' | relative_url }}" {% if page.url == '/faq/' %}class="active"{% endif %}>FAQ</a></li>
+            <li><a href="{{ '/press' | relative_url }}" {% if page.url == '/press/' %}class="active"{% endif %}>Press</a></li>
+            <li><a href="{{ '/support' | relative_url }}" {% if page.url == '/support/' %}class="active"{% endif %}>Support</a></li>
+        </ul>
+    </div>
+</nav>
