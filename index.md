@@ -7,7 +7,7 @@ permalink: /
 
 <section class="hero">
     <h1>Two iPhones. One Baby Monitor.<br>Zero Subscriptions.</h1>
-    <p class="hero-sub">EarHorn turns any two iPhones into a secure, private baby monitor app — the one that's already in your pocket when you're traveling, visiting family, or anywhere you don't have your nursery setup. No extra hardware. No cloud accounts. No monthly fees.</p>
+    <p class="hero-sub">EarHorn turns any two iPhones into a secure, private baby monitor app — the one that's already in your pocket when you're traveling, visiting family, or anywhere you don't have your nursery setup. No extra hardware. No cloud accounts. No monthly fees. No white noise in your ear all night.</p>
     <a href="{{ '/download' | relative_url }}" class="btn-cta">Coming April 2026</a>
     <p class="hero-note">One-time purchase. Available on iPhone.</p>
 </section>
@@ -75,11 +75,11 @@ permalink: /
     <div class="feature-grid">
         <div class="card feature-card">
             <h3>Hear What Woke the Baby</h3>
-            <p><strong>Hear what triggered the alert.</strong> EarHorn captures the sound that crossed your threshold — not just what came after. Smart filtering is designed to reduce false alarms from brief noises. Results depend on threshold settings, device placement, and environmental conditions.</p>
+            <p><strong>Hear what triggered the alert — not an hour of white noise.</strong> EarHorn only streams audio when sound crosses your threshold, so your baby's sound machine isn't playing in your living room all evening. When something louder breaks through, you hear exactly what triggered it thanks to a 1-second pre-roll buffer. Smart filtering is designed to reduce false alarms from brief noises.</p>
         </div>
         <div class="card feature-card">
             <h3>See the Nursery at a Glance</h3>
-            <p><strong>5 minutes of sound history, live.</strong> A rolling audio graph shows you whether the nursery has been quiet or restless. Adjust the sensitivity threshold right from your device — no tiptoeing back to the nursery. And because EarHorn only streams when it detects sound, your white noise machine stays in the nursery, not in your living room.</p>
+            <p><strong>5 minutes of sound history, live.</strong> A rolling audio graph shows you whether the nursery has been quiet or restless. Adjust the sensitivity threshold right from your device — no tiptoeing back to the nursery.</p>
         </div>
         <div class="card feature-card">
             <h3>Background Alerts That Work</h3>
@@ -135,6 +135,12 @@ permalink: /
                     <td class="check">Beta</td>
                     <td class="cross">Usually 1</td>
                     <td class="meh">Varies</td>
+                </tr>
+                <tr>
+                    <td>No constant white noise stream</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">No</td>
+                    <td class="cross">Rarely</td>
                 </tr>
                 <tr>
                     <td>Pre-roll audio <span class="text-muted" style="font-size:0.8em">(hear what triggered the alert)</span></td>
