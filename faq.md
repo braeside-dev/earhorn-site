@@ -152,7 +152,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>What happens if the baby device's battery dies?</summary>
-<p>EarHorn sends battery alerts at 20% and 10% so you have time to plug in. If the baby device does die, the parent device will show a disconnected status. We recommend keeping the baby device plugged in during monitoring.</p>
+<p>EarHorn sends battery alerts at 20% and 10% so you have time to plug in. If the baby device dies or the connection drops, the parent device will show a disconnected status and send a disconnection alert so you know monitoring has stopped. We recommend keeping the baby device plugged in during monitoring.</p>
 </details>
 </div>
 
@@ -211,7 +211,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>Why does EarHorn ask for notification access?</summary>
-<p>Notifications let EarHorn alert you when sound is detected while the app is in the background, and when the baby device's battery is running low. If you decline notifications, EarHorn will still work — but you'll only see alerts while the app is open in the foreground.</p>
+<p>Notifications let EarHorn alert you when sound is detected while the app is in the background, when the baby device's battery is running low, and when the connection between devices drops. If you decline notifications, EarHorn will still work — but you'll need to keep the app open to see status changes on screen. You won't receive any alerts when the app is in the background.</p>
 </details>
 </div>
 

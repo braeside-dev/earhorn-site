@@ -83,7 +83,7 @@ permalink: /
         </div>
         <div class="card feature-card">
             <h3>Background Alerts That Work</h3>
-            <p><strong>Get notified even when the app isn't open.</strong> Push notifications alert you when sound is detected, even if you've switched to another app. Battery alerts warn you before the baby device dies.</p>
+            <p><strong>Get notified even when the app isn't open.</strong> Push notifications alert you when sound is detected, even if you've switched to another app. Battery alerts warn you before the baby device dies, and disconnection alerts let you know if the connection drops.</p>
         </div>
         <div class="card feature-card">
             <h3>Connect the Whole House <span class="badge-beta">Beta</span></h3>
