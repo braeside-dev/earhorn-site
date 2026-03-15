@@ -74,4 +74,6 @@ We believe the strongest privacy approach isn't just a policy — it's architect
 
 EarHorn is built so that audio data flows only between your paired devices over your local network. We have no servers receiving it, no infrastructure storing it, and no way to access it.
 
+EarHorn launches April 2026. [Get notified →]({{ '/download' | relative_url }})
+
 *EarHorn is a convenience tool for audio monitoring and is not a substitute for attentive supervision.*

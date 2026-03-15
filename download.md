@@ -5,9 +5,23 @@ description: "Download EarHorn for iPhone. Turn two iPhones into a secure, priva
 permalink: /download/
 ---
 
-<div class="text-center" style="padding: 1em 0 2em;">
+<div class="text-center" style="padding: 1em 0 0.5em;">
     <p style="font-size: 1.3em; font-weight: 600; color: var(--color-heading);">EarHorn will be available on the App Store in April 2026.</p>
     <p class="text-muted">One-time purchase. No subscription.</p>
+</div>
+
+<div class="signup-form-wrap">
+    <p style="font-weight: 600; margin-bottom: 0.5em;">Get notified when EarHorn launches.</p>
+    <form action="https://formspree.io/f/xjgaelnv" method="POST" class="signup-form">
+        <input type="hidden" name="_subject" value="New EarHorn signup">
+        <input type="hidden" name="_next" value="https://earhorn.app/download/?thanks=1">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="signup-row">
+            <input type="email" name="email" placeholder="you@example.com" required class="signup-input">
+            <button type="submit" class="btn-cta signup-btn">Notify Me</button>
+        </div>
+    </form>
+    <p class="text-muted" style="font-size: 0.8em; margin-top: 0.5em;">We'll only email you once — on launch day.</p>
 </div>
 
 ## What you'll need

@@ -191,8 +191,18 @@ permalink: /
 
 <section class="final-cta">
     <h2>Ready to monitor?</h2>
-    <a href="{{ '/download' | relative_url }}" class="btn-cta">Coming April 2026</a>
-    <p class="text-muted">Available for iPhone. Requires iOS 16.7 or later.</p>
+    <p style="font-weight: 600; margin-bottom: 0.5em;">Get notified when EarHorn launches.</p>
+    <form action="https://formspree.io/f/xjgaelnv" method="POST" class="signup-form">
+        <input type="hidden" name="_subject" value="New EarHorn signup">
+        <input type="hidden" name="_next" value="https://earhorn.app/download/?thanks=1">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="signup-row">
+            <input type="email" name="email" placeholder="you@example.com" required class="signup-input">
+            <button type="submit" class="btn-cta signup-btn">Notify Me</button>
+        </div>
+    </form>
+    <p class="text-muted" style="font-size: 0.8em; margin-top: 0.5em;">We'll only email you once — on launch day.</p>
+    <p class="text-muted" style="margin-top: 1em;">Available for iPhone. Requires iOS 16.7 or later.</p>
     <p class="text-muted" style="font-size: 0.8em; margin-top: 1.5em;">EarHorn is a convenience tool for audio monitoring and is not a substitute for attentive supervision. See our <a href="{{ '/terms' | relative_url }}">Terms of Service</a> for important safety information.</p>
 </section>
 

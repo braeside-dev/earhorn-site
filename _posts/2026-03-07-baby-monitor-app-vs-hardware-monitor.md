@@ -95,4 +95,6 @@ For most families, the answer isn't one or the other — it's both for different
 
 EarHorn is built to be the monitor you always have with you, not a replacement for your nursery setup. It's the one that's in your pocket when you need it and sets up in under a minute wherever you are. Got an old iPhone in a drawer? See our guide on [how to turn it into a baby monitor]({{ '/blog/how-to-turn-old-iphone-into-baby-monitor' | relative_url }}).
 
+EarHorn launches April 2026. [Get notified →]({{ '/download' | relative_url }})
+
 *Feature comparisons reflect products available as of March 2026 and may not reflect current offerings. EarHorn is a convenience tool for audio monitoring and is not a substitute for attentive supervision.*
