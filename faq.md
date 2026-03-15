@@ -138,7 +138,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>Will EarHorn drain my phone battery?</summary>
-<p>The baby device uses the microphone continuously, so it will use more battery than idle — similar to a voice recording app. We recommend keeping it plugged in. The parent device uses minimal battery when waiting for audio. EarHorn alerts you when the baby device reaches 20% and 10% battery.</p>
+<p>The baby device uses the microphone continuously, so it will use more battery than idle — similar to a voice recording app. For extended monitoring, we recommend keeping it plugged in. The parent device uses minimal battery when waiting for audio. EarHorn alerts you when the baby device reaches 20% and 10% battery.</p>
 </details>
 </div>
 
@@ -152,7 +152,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>What happens if the baby device's battery dies?</summary>
-<p>EarHorn sends battery alerts at 20% and 10% so you have time to plug in. If the baby device dies or the connection drops, the parent device will show a disconnected status and send a disconnection alert so you know monitoring has stopped. We recommend keeping the baby device plugged in during monitoring.</p>
+<p>EarHorn sends battery alerts at 20% and 10% so you have time to plug in. If the baby device dies or the connection drops, the parent device will show a disconnected status and send a disconnection alert so you know monitoring has stopped. For extended monitoring, we recommend keeping the baby device plugged in.</p>
 </details>
 </div>
 

@@ -62,7 +62,7 @@ Put the old iPhone in the nursery, plugged into a charger, close enough to pick 
 
 **Adjust the threshold.** Every room is different. If you're getting too many alerts, raise the threshold from the parent device. If you're not getting alerts when the baby cries, lower it. You can adjust remotely — no need to go back into the nursery.
 
-**Keep the baby device plugged in.** While EarHorn will alert you at 20% and 10% battery, the baby device uses the microphone continuously, so it draws more power than idle. A charging cable solves this completely.
+**Keep the baby device plugged in for extended monitoring.** The baby device uses the microphone continuously, so it draws more power than idle. EarHorn will alert you at 20% and 10% battery, but a charging cable means you don't have to think about it.
 
 **Use Do Not Disturb on the baby device.** You don't want notification sounds from other apps waking the baby. Turn on Do Not Disturb or Focus mode on the old iPhone.
 
