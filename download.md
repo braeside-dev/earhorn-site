@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download EarHorn
-description: "Download EarHorn for iPhone and iPad. Turn two devices into a secure, private baby monitor. One-time purchase, no subscription. Requires iOS 16.7 or later."
+description: "Download EarHorn for iPhone. Turn two iPhones into a secure, private baby monitor. One-time purchase, no subscription. Requires iOS 16.7 or later."
 permalink: /download/
 ---
 
@@ -12,7 +12,7 @@ permalink: /download/
 
 ## What you'll need
 
-- **Two Apple devices** — iPhone or iPad (any combination works)
+- **Two iPhones** (or any two iPhones — an old one works great as the baby unit)
 - **iOS 16.7 or later** — that old iPhone 8 in your drawer? It works.
 - **Same WiFi network** — both devices need to be on the same home WiFi
 - **Microphone permission** — EarHorn needs mic access on the baby device

@@ -9,7 +9,7 @@ permalink: /
     <h1>Two iPhones. One Baby Monitor.<br>Zero Subscriptions.</h1>
     <p class="hero-sub">EarHorn turns any two iPhones into a secure, private baby monitor. Perfect for travel, visiting family, or whenever you need a monitor and don't have one. No extra hardware. No cloud accounts. No monthly fees.</p>
     <a href="{{ '/download' | relative_url }}" class="btn-cta">Coming April 2026</a>
-    <p class="hero-note">One-time purchase. Available on iPhone and iPad.</p>
+    <p class="hero-note">One-time purchase. Available on iPhone.</p>
 </section>
 
 <section class="trust-section">
@@ -171,7 +171,7 @@ permalink: /
     <div class="card">
         <details>
             <summary>Can I use an old iPhone as the baby unit?</summary>
-            <p>Yes. Any iPhone or iPad running iOS 16.7 or later works. That old iPhone 8 in your drawer is a great baby monitor.</p>
+            <p>Yes. Any iPhone running iOS 16.7 or later works. That old iPhone 8 in your drawer is a great baby monitor.</p>
         </details>
     </div>
     <div class="card">
@@ -186,7 +186,7 @@ permalink: /
 <section class="final-cta">
     <h2>Ready to monitor?</h2>
     <a href="{{ '/download' | relative_url }}" class="btn-cta">Coming April 2026</a>
-    <p class="text-muted">Available for iPhone and iPad. Requires iOS 16.7 or later.</p>
+    <p class="text-muted">Available for iPhone. Requires iOS 16.7 or later.</p>
     <p class="text-muted" style="font-size: 0.8em; margin-top: 1.5em;">EarHorn is a convenience tool for audio monitoring and is not a substitute for attentive supervision. See our <a href="{{ '/terms' | relative_url }}">Terms of Service</a> for important safety information.</p>
 </section>
 

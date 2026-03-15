@@ -11,7 +11,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>What do I need to use EarHorn?</summary>
-<p>Two Apple devices (iPhone or iPad) running iOS 16.7 or later, both connected to the same WiFi network. That's it — no extra hardware, no account, no subscription.</p>
+<p>Two iPhones running iOS 16.7 or later, both connected to the same WiFi network. That's it — no extra hardware, no account, no subscription.</p>
 </details>
 </div>
 
@@ -25,14 +25,14 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>Can I use an old iPhone as the baby unit?</summary>
-<p>Yes. Any iPhone or iPad running iOS 16.7 or later works great. That old iPhone 8 in your drawer is a great baby monitor — just plug it in and set it up as the baby device.</p>
+<p>Yes. Any iPhone running iOS 16.7 or later works great. That old iPhone 8 in your drawer is a great baby monitor — just plug it in and set it up as the baby device.</p>
 </details>
 </div>
 
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
-<summary>Can I use an iPad with EarHorn?</summary>
-<p>Yes. EarHorn works on both iPhone and iPad. Any combination works — iPhone to iPhone, iPad to iPhone, etc.</p>
+<summary>Does EarHorn work on iPad?</summary>
+<p>EarHorn is currently iPhone-only. iPad support may be added in a future update.</p>
 </details>
 </div>
 
@@ -201,7 +201,7 @@ permalink: /faq/
             "name": "What do I need to use EarHorn?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Two Apple devices (iPhone or iPad) running iOS 16.7 or later, both connected to the same WiFi network. No extra hardware, no account, no subscription."
+                "text": "Two iPhones running iOS 16.7 or later, both connected to the same WiFi network. No extra hardware, no account, no subscription."
             }
         },
         {
@@ -233,7 +233,7 @@ permalink: /faq/
             "name": "Can I use an old iPhone as the baby unit?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Any iPhone or iPad running iOS 16.7 or later works. That old iPhone 8 in your drawer is a great baby monitor."
+                "text": "Yes. Any iPhone running iOS 16.7 or later works. That old iPhone 8 in your drawer is a great baby monitor."
             }
         },
         {

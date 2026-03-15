@@ -14,7 +14,7 @@ EarHorn is an iOS baby monitor app that turns two iPhones into a secure audio mo
 <table class="press-facts">
 <tr><td>App Name</td><td>EarHorn</td></tr>
 <tr><td>Developer</td><td>Braeside Dev LLC</td></tr>
-<tr><td>Platform</td><td>iOS (iPhone and iPad)</td></tr>
+<tr><td>Platform</td><td>iOS (iPhone)</td></tr>
 <tr><td>Requires</td><td>iOS 16.7 or later</td></tr>
 <tr><td>Price</td><td>One-time purchase (no subscription)</td></tr>
 <tr><td>Launch</td><td>April 2026</td></tr>

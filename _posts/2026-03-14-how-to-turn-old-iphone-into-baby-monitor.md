@@ -12,7 +12,7 @@ Here's how to do it with EarHorn.
 ## What you need
 
 - **An old iPhone** running iOS 16.7 or later (iPhone 8 and newer all work)
-- **Your current iPhone** (or iPad) as the parent device
+- **Your current iPhone** as the parent device
 - **A charging cable** for the old phone — you'll want it plugged in
 - Both devices on the **same WiFi network**
 
