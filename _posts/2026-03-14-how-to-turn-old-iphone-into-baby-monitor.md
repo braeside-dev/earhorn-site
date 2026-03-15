@@ -72,12 +72,12 @@ Put the old iPhone in the nursery, plugged into a charger, close enough to pick 
 
 Hardware baby monitors are great for a dedicated nursery setup at home. But there are plenty of situations where they're not an option:
 
-- **Traveling**: Hotels, Airbnbs, vacation rentals — your nursery camera stays at home
+- **Traveling**: Hotels, Airbnbs, vacation rentals — your nursery camera stays at home (tip: some hotel WiFi networks block device-to-device communication; a small travel router solves this)
 - **Visiting family**: Grandparents' house, friends with a guest room, holiday gatherings
 - **Backup**: When your main monitor breaks, runs out of battery, or you just need a second option
 - **Simplicity**: Sometimes you just need audio monitoring without buying and mounting more hardware
 
-EarHorn fills that gap. It uses the hardware you already have, sets up in under a minute, and works anywhere you have WiFi. It's the monitor that's always in your pocket.
+EarHorn fills that gap. It uses the hardware you already have, sets up in under a minute, and works anywhere you have WiFi and two phones. It's the monitor that's always in your pocket.
 
 ## What about security?
 

@@ -24,6 +24,13 @@ permalink: /faq/
 
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
+<summary>Does EarHorn work on hotel or public WiFi?</summary>
+<p>It depends. Many hotels, airports, and public networks use <strong>client isolation</strong>, which prevents devices on the same network from communicating with each other. If client isolation is enabled, EarHorn's devices won't be able to find each other. Some hotels offer a "conference" or "device" network without isolation — ask the front desk. You can also bring a small travel router to create your own private WiFi network in the room, which works reliably.</p>
+</details>
+</div>
+
+<div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
+<details>
 <summary>Can I use an old iPhone as the baby unit?</summary>
 <p>Yes. Any iPhone running iOS 16.7 or later works great. That old iPhone 8 in your drawer is a great baby monitor — just plug it in and set it up as the baby device.</p>
 </details>
