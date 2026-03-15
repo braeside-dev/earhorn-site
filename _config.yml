@@ -1,9 +1,12 @@
 title: EarHorn
-description: iOS baby monitor app. Two phones? Good to go.
+description: "Turn two iPhones into a secure, private baby monitor. No cloud servers, no account, no subscription. P-256 encrypted audio streaming over your home WiFi."
 url: https://earhorn.app
 baseurl: ""
 
 permalink: /blog/:title/
+
+plugins:
+  - jekyll-sitemap
 
 exclude:
   - README.md
