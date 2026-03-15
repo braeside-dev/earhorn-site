@@ -139,6 +139,20 @@ a:hover {
     text-decoration: none;
 }
 
+/* Nav CTA button */
+.nav-cta {
+    background: var(--color-accent);
+    color: #fff !important;
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.nav-cta:hover {
+    background: var(--color-accent-light);
+    text-decoration: none !important;
+}
+
 /* Mobile nav */
 @media (max-width: 600px) {
     .nav-links {
