@@ -15,7 +15,7 @@ permalink: /download/
 - **Two iPhones** (or any two iPhones — an old one works great as the baby unit)
 - **iOS 16.7 or later** — that old iPhone 8 in your drawer? It works.
 - **Same WiFi network** — both devices need to be on the same home WiFi
-- **Microphone permission** — EarHorn needs mic access on the baby device
+- **Permissions** — EarHorn will ask for microphone access (to listen for sound) and local network access (to connect your devices). Grant both for full functionality.
 
 ## Quick setup
 

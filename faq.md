@@ -191,6 +191,32 @@ permalink: /faq/
 
 </div>
 
+<div class="faq-category">
+<h3>Permissions</h3>
+
+<div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
+<details>
+<summary>Why does EarHorn ask for microphone access?</summary>
+<p>The baby device uses the microphone to listen for sound above your configured threshold. Without microphone access, EarHorn can't monitor audio. The microphone is only actively used when monitoring is running. No audio is recorded, stored, or sent to Braeside Dev — it streams directly to your paired parent device over your local network.</p>
+</details>
+</div>
+
+<div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
+<details>
+<summary>Why does EarHorn ask for local network access?</summary>
+<p>EarHorn uses your local WiFi network to discover and connect to your other device. Apple requires apps to request local network permission before they can communicate with other devices on the same network. This is how the baby and parent devices find each other and stream audio — no internet or cloud server is involved.</p>
+</details>
+</div>
+
+<div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
+<details>
+<summary>Why does EarHorn ask for notification access?</summary>
+<p>Notifications let EarHorn alert you when sound is detected while the app is in the background, and when the baby device's battery is running low. If you decline notifications, EarHorn will still work — but you'll only see alerts while the app is open in the foreground.</p>
+</details>
+</div>
+
+</div>
+
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",

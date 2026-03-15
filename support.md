@@ -24,7 +24,7 @@ permalink: /support/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details open>
 <summary>No audio is coming through</summary>
-<p>Check that the baby device has granted microphone permission (Settings > Privacy & Security > Microphone > EarHorn). Also verify the sound threshold isn't set too high — try lowering it from the parent device's threshold slider.</p>
+<p>Check that the baby device has granted microphone permission (Settings > Privacy & Security > Microphone > EarHorn) and local network permission (Settings > Privacy & Security > Local Network > EarHorn). Also verify the sound threshold isn't set too high — try lowering it from the parent device's threshold slider.</p>
 </details>
 </div>
 
