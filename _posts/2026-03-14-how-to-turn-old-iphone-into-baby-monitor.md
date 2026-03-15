@@ -77,7 +77,7 @@ Hardware baby monitors are great for a dedicated nursery setup at home. But ther
 - **Backup**: When your main monitor breaks, runs out of battery, or you just need a second option
 - **Simplicity**: Sometimes you just need audio monitoring without buying and mounting more hardware
 
-EarHorn fills that gap. It uses the hardware you already have, sets up in under a minute, and works anywhere you have WiFi and two phones. It's the monitor that's always in your pocket.
+EarHorn fills that gap. It uses the hardware you already have, sets up in under a minute, and works anywhere you have WiFi and two phones. It's the monitor that's always in your pocket. For a deeper comparison of when an app makes sense vs. dedicated hardware, see our [app vs. hardware monitor comparison]({{ '/blog/baby-monitor-app-vs-hardware-monitor' | relative_url }}).
 
 ## What about security?
 

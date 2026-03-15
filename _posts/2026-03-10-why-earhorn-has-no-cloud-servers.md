@@ -66,7 +66,7 @@ Peer-to-peer doesn't mean unprotected. EarHorn implements serious security:
 - **Rate limiting**: Failed pairing attempts trigger exponential backoff (up to 1-hour lockout)
 - **Keychain storage**: All cryptographic keys stored with `kSecAttrAccessibleWhenUnlockedThisDeviceOnly` — not synced to iCloud, deleted on device wipe
 
-P-256 is a widely-used industry standard recommended by NIST. With EarHorn, the encryption is between your own devices, with no third party in the middle.
+P-256 is a widely-used industry standard recommended by NIST. With EarHorn, the encryption is between your own devices, with no third party in the middle. For more details on how EarHorn handles your data, see our [privacy and security FAQ]({{ '/faq' | relative_url }}).
 
 ## Building trust through architecture
 

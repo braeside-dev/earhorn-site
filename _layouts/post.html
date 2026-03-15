@@ -9,3 +9,27 @@ layout: default
 
     {{ content }}
 </article>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page.description | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "author": {
+        "@type": "Organization",
+        "name": "Braeside Dev LLC",
+        "url": "https://braesidedev.com"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Braeside Dev LLC",
+        "url": "https://braesidedev.com"
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | absolute_url }}"
+    }
+}
+</script>

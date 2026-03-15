@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQ
+title: "Frequently Asked Questions"
 description: "Frequently asked questions about EarHorn, the privacy-first iPhone baby monitor app."
 permalink: /faq/
 ---
@@ -105,7 +105,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>How does the sound threshold work?</summary>
-<p>EarHorn continuously listens but only streams audio when the nursery sound level crosses your configured threshold. Smart filtering (hysteresis) requires sustained sound above the threshold to trigger, which means a brief sound like a door slam is less likely to trigger an alert than sustained sound like crying. Results depend on threshold settings, device placement, and environmental conditions. You can adjust the threshold from either the baby or parent device.</p>
+<p>EarHorn continuously listens but only streams audio when the nursery sound level crosses your configured threshold. This means constant background sounds — like a white noise machine or fan — stay in the nursery and aren't piped to the parent device. Smart filtering (hysteresis) requires sustained sound above the threshold to trigger, which means a brief sound like a door slam is less likely to trigger an alert than sustained sound like crying. Results depend on threshold settings, device placement, and environmental conditions. You can adjust the threshold from either the baby or parent device.</p>
 </details>
 </div>
 
@@ -299,6 +299,14 @@ permalink: /faq/
             "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "EarHorn is portable — great for travel, visiting family, or as a backup. No extra hardware to buy and no subscription. Hardware monitors are excellent for a dedicated nursery; EarHorn is the monitor you can always have with you."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does EarHorn work on hotel or public WiFi?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It depends. Many hotels and public networks use client isolation, which prevents devices from communicating. A small travel router creates your own private WiFi network and works reliably."
             }
         }
     ]

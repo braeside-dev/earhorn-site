@@ -171,6 +171,11 @@ a:hover {
 
     .nav-links a {
         font-size: 0.82em;
+        padding: 10px 0;
+    }
+
+    details summary {
+        padding: 10px 0;
     }
 }
 

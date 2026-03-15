@@ -44,8 +44,8 @@ permalink: /support/
 
 ## Known Limitations
 
-- **Audio only** — EarHorn does not include video monitoring, by design
-- **Same WiFi required** — audio streaming requires both devices on the same local network
+- **Audio only** — EarHorn does not include video monitoring, [by design]({{ '/faq' | relative_url }})
+- **Same WiFi required** — both devices must be on the [same local network]({{ '/faq' | relative_url }})
 - **Push notifications require iCloud** — background alerts use Apple's CloudKit service
 - **Not a safety device** — EarHorn is a convenience tool and does not replace attentive supervision
 
