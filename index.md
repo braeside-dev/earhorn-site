@@ -7,7 +7,7 @@ permalink: /
 
 <section class="hero">
     <h1>Two iPhones. One Baby Monitor.<br>Zero Subscriptions.</h1>
-    <p class="hero-sub">EarHorn turns any two iPhones into a secure, private baby monitor app — the one that's already in your pocket when you're traveling, visiting family, or anywhere you don't have your nursery setup. No extra hardware. No cloud accounts. No monthly fees. No white noise in your ear all night.</p>
+    <p class="hero-sub">EarHorn turns any two iPhones into a secure, private baby monitor app — the one that's already in your pocket when you're traveling, visiting family, or anywhere you don't have your nursery setup. No extra hardware. No cloud accounts. No monthly fees. No constant white noise stream in your ear.</p>
     <a href="{{ '/download' | relative_url }}" class="btn-cta">Coming April 2026</a>
     <p class="hero-note">One-time purchase. Available on iPhone.</p>
 </section>
