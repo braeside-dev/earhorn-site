@@ -4,9 +4,9 @@
             EarHorn
         </a>
         <ul class="nav-links">
+            <li><a href="{{ '/download' | relative_url }}" class="nav-cta">Download</a></li>
             <li><a href="{{ '/blog' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a></li>
             <li><a href="{{ '/faq' | relative_url }}" {% if page.url == '/faq/' %}class="active"{% endif %}>FAQ</a></li>
-            <li><a href="{{ '/download' | relative_url }}" class="nav-cta">Download</a></li>
         </ul>
     </div>
 </nav>

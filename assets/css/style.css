@@ -140,17 +140,18 @@ a:hover {
 }
 
 /* Nav CTA button */
-.nav-cta {
+.nav-links a.nav-cta {
     background: var(--color-accent);
-    color: #fff !important;
+    color: #fff;
     padding: 6px 16px;
     border-radius: 8px;
     font-weight: 600;
 }
 
-.nav-cta:hover {
+.nav-links a.nav-cta:hover {
     background: var(--color-accent-light);
-    text-decoration: none !important;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Mobile nav */
