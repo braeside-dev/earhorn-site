@@ -607,6 +607,9 @@ details p {
 .signup-form-wrap {
     text-align: center;
     padding: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .signup-row {
