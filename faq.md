@@ -72,7 +72,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>Can anyone else listen to my baby monitor?</summary>
-<p>No. Audio only streams between devices you've explicitly paired using the 6-character code. The connection is encrypted end-to-end, and the peer-to-peer architecture means there's no server for anyone to intercept. Someone would need physical access to your WiFi network and one of your paired devices.</p>
+<p>Audio only streams between devices you've explicitly paired using the 6-character code. The connection is encrypted, and the peer-to-peer architecture means there's no server for anyone to intercept. The baby device always displays how many parent devices are currently connected — so you can verify at a glance that only the devices you expect are listening.</p>
 </details>
 </div>
 

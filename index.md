@@ -14,7 +14,7 @@ permalink: /
 
 <section class="trust-section">
     <h2>Your baby's audio is designed to stay on your home network.</h2>
-    <p>EarHorn streams audio directly between your devices over your home WiFi — no cloud servers, no accounts, no audio data leaving your network. By design, audio only travels between your paired devices and never passes through our servers.</p>
+    <p>EarHorn streams audio directly between your devices over your home WiFi — no cloud servers, no accounts, no audio data leaving your network. By design, audio only travels between your paired devices and never passes through our servers. The baby device always shows how many parents are connected, so you can verify at a glance that only your devices are listening.</p>
     <div class="trust-badges">
         <div class="trust-badge">
             <div class="trust-icon">&#x1F6AB;</div>
