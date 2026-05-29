@@ -87,6 +87,6 @@ The 6-character pairing code uses PBKDF2 key derivation with 600,000 iterations,
 
 ## Get started
 
-EarHorn will be available on the App Store in April 2026. [Get notified when it launches →]({{ '/download' | relative_url }})
+EarHorn will be available on the App Store in June 2026. [Get notified when it launches →]({{ '/download' | relative_url }})
 
 *EarHorn is a convenience tool for audio monitoring and is not a substitute for attentive supervision.*
