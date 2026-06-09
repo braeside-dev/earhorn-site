@@ -5,7 +5,7 @@ description: "EarHorn Terms of Service. Terms and conditions for using the EarHo
 permalink: /terms/
 ---
 
-<div class="legal-content">
+<div class="legal-content" markdown="1">
 
 **Effective date:** February 20, 2026
 
@@ -35,7 +35,7 @@ You agree not to:
 - Remove, alter, or obscure any proprietary notices in the App;
 - Use the App for any commercial purpose or for the benefit of any third party.
 
-<div class="warning">
+<div class="warning" markdown="1">
 
 ## 5. No Substitute for Supervision
 

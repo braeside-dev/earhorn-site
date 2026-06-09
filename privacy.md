@@ -5,7 +5,7 @@ description: "EarHorn Privacy Policy. Learn how EarHorn handles your information
 permalink: /privacy/
 ---
 
-<div class="legal-content">
+<div class="legal-content" markdown="1">
 
 **Effective date:** February 20, 2026
 
