@@ -1,0 +1,57 @@
+---
+layout: page
+title: Privacy Policy
+description: "EarHorn Privacy Policy. Learn how EarHorn handles your information."
+permalink: /privacy/
+---
+
+<!-- AUTO-GENERATED from monitor/monitor/Legal/privacy.html in the app repo.
+     Do not edit here; edit the app copy and run scripts/sync-legal-to-site.sh -->
+
+<div class="legal-content">
+
+    <p><strong>Effective date:</strong> June 12, 2026</p>
+
+    <p>Braeside Dev LLC ("Braeside Dev") built EarHorn as a baby monitor app. This policy describes how the EarHorn iOS app handles your information. This Privacy Policy is governed by and subject to the Terms of Service, including the governing law and dispute resolution provisions therein.</p>
+
+    <h2>Data Collection</h2>
+    <p>Braeside Dev does not collect, receive, or have access to any personal information through EarHorn. The app does not require an account and does not ask for personal details such as your name or email address. The app stores limited data locally on your devices and in your own iCloud account, as described below.</p>
+
+    <h2>Device Identifiers</h2>
+    <p>EarHorn generates a random device identifier (UUID) on first launch to facilitate device pairing and reconnection. This identifier is stored locally on your device in the iOS Keychain and is not transmitted to Braeside Dev. It is shared with your paired devices, and while the app is advertising or discovering for pairing it may be visible to other devices on your local network as part of Apple's device discovery process. It persists until the app is deleted or devices are unpaired.</p>
+
+    <h2>Cryptographic Keys</h2>
+    <p>EarHorn generates P-256 cryptographic keys for device authentication. These keys are stored in the iOS Keychain with protections that prevent them from being synced to iCloud or backed up. Keys are deleted when the app is removed.</p>
+
+    <h2>Audio and Device Communication</h2>
+    <p>EarHorn streams audio between your paired devices over your local WiFi network using Apple's Multipeer Connectivity framework. Audio data is transient &mdash; it is processed locally on-device and streamed directly to paired devices. Audio is not retained after playback and is not transmitted to Braeside Dev, Apple, or any third party.</p>
+    <p>When in baby mode, the app accesses the device microphone continuously to detect sound above your configured threshold. Audio is only streamed to paired parent devices when the threshold is exceeded.</p>
+
+    <h2>iCloud and CloudKit</h2>
+    <p>EarHorn uses Apple's CloudKit service to deliver push notifications when the app is in the background. When sound is detected, the app creates a notification record containing metadata (timestamp and alert type) in the iCloud account of the baby device's owner. These records contain no audio content. Battery alert records are similarly stored when the baby device reaches low battery thresholds.</p>
+    <p>CloudKit data is stored in Apple's infrastructure under the iCloud account of the baby device's owner and is shared with paired parent devices, which may be signed in to different iCloud accounts. Braeside Dev does not have access to your CloudKit data. Alert records never contain audio &mdash; only a timestamp and an alert type. The app attempts to delete alert records automatically shortly after they are delivered, and deletes its CloudKit data when you unpair devices, but you should assume that records may persist in your iCloud account until you unpair devices or remove the app's data from iCloud.</p>
+
+    <h2>Data Retention</h2>
+    <ul>
+        <li><strong>Audio data:</strong> Not retained. Processed in real-time and discarded after playback.</li>
+        <li><strong>Device identifiers:</strong> Stored locally until the app is deleted or devices are unpaired.</li>
+        <li><strong>Cryptographic keys:</strong> Stored locally until the app is removed.</li>
+        <li><strong>CloudKit records:</strong> Timestamp and alert type only, never audio. The app attempts to delete them shortly after delivery and removes its CloudKit data when devices are unpaired; assume records may persist in your iCloud account until then.</li>
+    </ul>
+
+    <h2>Analytics and Tracking</h2>
+    <p>EarHorn does not include analytics, advertising, or third-party tracking.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>EarHorn is designed for use by adult caregivers aged 18 and older, not by children directly. While the app captures audio that may include children's voices, this audio streams exclusively between the user's own paired devices over their local network. Braeside Dev does not collect, receive, store, or have access to any audio data, including children's voices, and does not knowingly collect personal information from children under 13.</p>
+
+    <h2>California and State Privacy Rights</h2>
+    <p>EarHorn does not sell or share personal information as defined under the California Consumer Privacy Act. Because EarHorn does not collect personal information beyond locally-stored device identifiers, the rights to know, delete, and opt out under state privacy laws are addressed by the app's design: there is no personal data held by Braeside Dev to disclose, delete, or stop selling.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If this policy is updated, the revised version will be posted on this page with a new effective date. For material changes to how the app handles your information, Braeside Dev will provide notice within the app and will require you to affirmatively accept the updated terms before continuing to use the app, consistent with the Terms of Service.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this policy, or wish to ask about or exercise any rights you may have regarding your information, contact Braeside Dev at <a href="mailto:info@braesidedev.com">info@braesidedev.com</a>, via the contact information listed on the App Store, or by mail at the address listed in the Terms of Service.</p>
+
+</div>
