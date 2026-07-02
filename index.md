@@ -8,7 +8,7 @@ permalink: /
 <section class="hero">
     <h1>Two iPhones. One Baby Monitor.<br>Zero Subscriptions.</h1>
     <p class="hero-sub">EarHorn turns any two iPhones into a secure, private baby monitor app — the one that's already in your pocket when you're traveling, visiting family, or anywhere you don't have your nursery setup. No extra hardware. No cloud accounts. No monthly fees. No constant white noise stream in your ear.</p>
-    <a href="{{ '/download' | relative_url }}" class="btn-cta">Coming June 2026</a>
+    <a href="{{ '/download' | relative_url }}" class="btn-cta">Coming July 2026</a>
     <p class="hero-note">One-time purchase. Available on iPhone.</p>
 </section>
 
@@ -45,7 +45,7 @@ permalink: /
         <div class="step">
             <div class="step-num">2</div>
             <h3>Pair with a code</h3>
-            <p>Enter the 6-character code to connect securely.</p>
+            <p>Enter the baby device's 6-character code on the parent, then approve the request on the baby device.</p>
         </div>
         <div class="step">
             <div class="step-num">3</div>
@@ -171,7 +171,7 @@ permalink: /
     <div class="card">
         <details>
             <summary>How secure is the connection?</summary>
-            <p>EarHorn uses P-256 elliptic curve cryptography, a widely-used industry standard recommended by NIST. Devices authenticate each other directly with a 3-step cryptographic handshake. Encryption keys never leave your phone.</p>
+            <p>EarHorn uses P-256 elliptic curve cryptography, a widely-used industry standard recommended by NIST. Devices authenticate each other directly with a 3-step cryptographic handshake. Private keys never leave your phone.</p>
         </details>
     </div>
     <div class="card">

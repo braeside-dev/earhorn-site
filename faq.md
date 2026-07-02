@@ -53,7 +53,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>How do I pair the baby and parent devices?</summary>
-<p>Choose "Baby" on one device and "Parent" on the other. The baby device generates a 6-character pairing code. Enter that code on the parent device. Once paired, your devices will automatically reconnect in the future without needing the code again.</p>
+<p>Choose "Baby" on one device and "Parent" on the other. On the baby device, start pairing mode — it generates a 6-character pairing code. Enter that code on the parent device, then approve the pairing request that appears on the baby device. Once paired, your devices will automatically reconnect in the future without needing the code again.</p>
 </details>
 </div>
 
@@ -72,21 +72,21 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>How secure is EarHorn's connection?</summary>
-<p>EarHorn uses P-256 elliptic curve cryptography, a widely-used industry standard recommended by NIST. Devices authenticate each other with a 3-step cryptographic handshake. Encryption keys are stored only on your device (in the iOS Keychain) and never leave your phone.</p>
+<p>EarHorn uses P-256 elliptic curve cryptography, a widely-used industry standard recommended by NIST. Devices authenticate each other with a 3-step cryptographic handshake. Private keys are stored only on your device (in the iOS Keychain) and never leave your phone.</p>
 </details>
 </div>
 
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>Can anyone else listen to my baby monitor?</summary>
-<p>Audio only streams between devices you've explicitly paired using the 6-character code. The connection is encrypted, and the peer-to-peer architecture means there's no server for anyone to intercept. The baby device always displays how many parent devices are currently connected — so you can verify at a glance that only the devices you expect are listening.</p>
+<p>Audio only streams between devices you've explicitly paired. Pairing a new device requires entering the 6-character code <em>and</em> being approved on the baby device — nobody can join just by knowing the code, and pairing is only possible while you've put the baby device in pairing mode. The connection is encrypted, and the peer-to-peer architecture means there's no server for anyone to intercept. The baby device always displays how many parent devices are currently connected — so you can verify at a glance that only the devices you expect are listening.</p>
 </details>
 </div>
 
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>Does EarHorn require an account?</summary>
-<p>No. There is no account to create, no email to enter, no password to remember. EarHorn works entirely on-device. The only Apple service it optionally uses is iCloud for push notifications, using your existing Apple ID transparently.</p>
+<p>No. There is no account to create, no email to enter, no password to remember. EarHorn works entirely on-device. The only Apple service it optionally uses is iCloud for push notifications, which works automatically with the Apple ID already signed in on your phone — there's nothing to set up.</p>
 </details>
 </div>
 
@@ -152,7 +152,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>Does EarHorn work in the background?</summary>
-<p>The baby device continues monitoring in the background using iOS background audio. The parent device receives push notifications when sound is detected, even if you've switched to another app. For the best experience, keep EarHorn in the foreground on the parent device.</p>
+<p>The baby device continues monitoring in the background using iOS background audio. If you've allowed notifications, the parent device receives push notifications when sound is detected, even if you've switched to another app. For the best experience, keep EarHorn in the foreground on the parent device.</p>
 </details>
 </div>
 
@@ -218,7 +218,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>Why does EarHorn ask for notification access?</summary>
-<p>Notifications let EarHorn alert you when sound is detected while the app is in the background, when the baby device's battery is running low, and when the connection between devices drops. If you decline notifications, EarHorn will still work — but you'll need to keep the app open to see status changes on screen. You won't receive any alerts when the app is in the background.</p>
+<p>Notifications let EarHorn alert you when sound is detected while the app is in the background, when the baby device's battery is running low, and when the connection between devices drops. If you decline notifications, EarHorn will still work, but you won't receive any alerts while the app is in the background — you'll need to keep the app open to see status changes on screen.</p>
 </details>
 </div>
 
@@ -250,7 +250,7 @@ permalink: /faq/
             "name": "Does EarHorn send data to the cloud?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "No. Audio streams directly between your devices over your home WiFi using peer-to-peer technology. No audio ever touches the internet."
+                "text": "Audio streams directly between your devices over your home WiFi using peer-to-peer technology — no audio data is ever sent to the internet. The only thing that goes online is push notification metadata through Apple's CloudKit, which contains no audio content."
             }
         },
         {
@@ -258,7 +258,7 @@ permalink: /faq/
             "name": "How secure is EarHorn's connection?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "EarHorn uses P-256 elliptic curve cryptography with a 3-step mutual authentication handshake. Encryption keys are stored in the iOS Keychain and never leave your device."
+                "text": "EarHorn uses P-256 elliptic curve cryptography with a 3-step mutual authentication handshake. Private keys are stored in the iOS Keychain and never leave your device."
             }
         },
         {

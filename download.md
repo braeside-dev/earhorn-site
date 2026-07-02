@@ -8,7 +8,7 @@ permalink: /download/
 <style>.page-header { text-align: center; }</style>
 
 <div style="text-align: center; padding: 1em 0 0.5em;">
-    <p style="font-size: 1.3em; font-weight: 600; color: var(--color-heading);">EarHorn will be available on the App Store in June 2026.</p>
+    <p style="font-size: 1.3em; font-weight: 600; color: var(--color-heading);">EarHorn will be available on the App Store in July 2026.</p>
     <p class="text-muted">One-time purchase. No subscription.</p>
 </div>
 
@@ -31,13 +31,13 @@ permalink: /download/
 - **Two iPhones** — an old one works great as the baby unit
 - **iOS 16.7 or later** — that old iPhone 8 in your drawer? It works.
 - **Same WiFi network** — both devices need to be on the same home WiFi
-- **Permissions** — EarHorn will ask for microphone access (to listen for sound) and local network access (to connect your devices). Grant both for full functionality.
+- **Permissions** — EarHorn will ask for microphone access (to listen for sound) and local network access (to connect your devices). Grant both for full functionality. It will also offer notifications, which you'll need if you want alerts while the app is in the background.
 
 ## Quick setup
 
 1. **Download EarHorn** on both devices from the App Store
 2. **Choose roles** — tap "Baby" on the nursery phone, "Parent" on yours
-3. **Pair with a code** — the baby device shows a 6-character code; enter it on the parent device
+3. **Pair with a code** — start pairing on the baby device to get a 6-character code, enter it on the parent device, then approve the request on the baby device
 4. **Start monitoring** — EarHorn listens and alerts you when sound is detected
 
 Setup takes under a minute. Once paired, your devices reconnect automatically.
