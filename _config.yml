@@ -10,3 +10,10 @@ plugins:
 
 exclude:
   - README.md
+
+# Jekyll drops dot-directories from the built site by default. The Apple
+# app-site-association file has to be served from /.well-known/ for pairing
+# links to open the app, so the directory is included by name. A copy also
+# sits at the site root, which is the other location iOS checks.
+include:
+  - .well-known

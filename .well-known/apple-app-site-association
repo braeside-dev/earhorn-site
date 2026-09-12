@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["67B27738G9.com.braesidedev.earhorn"],
+        "components": [
+          { "/": "/pair", "comment": "An EarHorn pairing link opens the app" },
+          { "/": "/pair/*", "comment": "And anything under it" }
+        ]
+      }
+    ]
+  }
+}

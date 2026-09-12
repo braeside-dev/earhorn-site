@@ -1,0 +1,43 @@
+---
+layout: page
+title: Pair with a nursery
+description: "Somebody shared an EarHorn pairing link with you, or you scanned the code on the nursery phone."
+permalink: /pair/
+# apple_app_id: 0000000000
+# Uncomment the line above with the App Store ID once EarHorn has a listing.
+# It puts Apple's own "Open in the App Store" banner at the top of this page,
+# and once the app is installed the same banner reads "Open".
+---
+
+<!-- This page must never log, transmit or store anything after the # in its
+     address. The fragment is a live pairing capability: it can pair a phone
+     with the nursery for the next two hours. There is no analytics and no
+     third party script on this page, nothing reads window.location.hash, and
+     the address is never rendered into the page. Keep it that way. -->
+
+<div class="legal-content">
+
+    <p><strong>If EarHorn is installed on this phone, the link you tapped should have opened it directly.</strong> If you are reading this instead, the app is not on this phone yet, or your phone has decided to open EarHorn links in Safari.</p>
+
+    <h2>Get EarHorn</h2>
+    <p>EarHorn is coming to the App Store. Until then, the person who shared this link can send you an invitation to the test version.</p>
+    <p><a class="btn-cta" href="{{ '/download/' | relative_url }}">About EarHorn</a></p>
+
+    <h2>After installing</h2>
+    <p>Scan the code on the nursery phone again with your phone's Camera app, or ask for the link to be sent again. A pairing link works for two hours and cannot be carried through an install, so a fresh one is needed once the app is on your phone.</p>
+
+    <h2>If the link keeps opening in Safari</h2>
+    <p>Your phone remembers a choice to open EarHorn links here instead of in the app. Touch and hold the link where it was sent to you, then choose <strong>Open in EarHorn</strong>. Or open EarHorn, choose the parent role, tap <strong>Enter a code instead</strong>, and type the code shown under the QR on the nursery phone.</p>
+
+    <h2>What this link is</h2>
+    <p>It carries the nursery phone's address on your home network and a one-time secret, and it lets a phone pair with that nursery for two hours. Treat it like a key: do not forward it, and do not post it anywhere.</p>
+
+</div>
+
+<script>
+    // Sends a phone without the app straight to the App Store, so there is
+    // nothing to tap. Empty until EarHorn has a listing; fill in the store
+    // URL then. This script reads nothing from the address bar.
+    var STORE_URL = "";
+    if (STORE_URL) { window.location.replace(STORE_URL); }
+</script>
