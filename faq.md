@@ -53,7 +53,16 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>How do I pair the baby and parent devices?</summary>
-<p>Choose "Baby" on one device and "Parent" on the other. On the baby device, start pairing mode — it generates a 6-character pairing code. Enter that code on the parent device, then approve the pairing request that appears on the baby device. Once paired, your devices will automatically reconnect in the future without needing the code again.</p>
+<p>Choose "Baby" on one device and "Parent" on the other. The baby device shows a QR code, a share button, and an 8-character pairing code underneath. Scan the QR with the parent phone's Camera app, or send the link to it, or type the code in on the parent device — any of the three does the same thing. Then approve the pairing request that appears on the baby device. Once paired, your devices reconnect automatically in future without the code.</p>
+</details>
+</div>
+
+<div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
+<details>
+<summary>A pairing link opened EarHorn but the app says it arrived without its details</summary>
+<p>Something between the two phones removed the part of the link that does the pairing. <strong>Lockdown Mode</strong> does this: it strips the end of a link before the app on the receiving phone ever sees it, so what arrives is an EarHorn address with nothing in it. Some message and mail apps rewrite links the same way.</p>
+<p>The fix is to skip links entirely: <strong>scan the QR code on the nursery phone with the parent phone's Camera app</strong>. Nothing is stripped from a code you point a camera at. Typing the 8-character pairing code in by hand works too.</p>
+<p>Nothing is wrong with either phone, and nothing needs turning off. If you would rather share links than scan codes, Lockdown Mode is the setting to look at — Settings, Privacy &amp; Security, Lockdown Mode — but the camera works with it on.</p>
 </details>
 </div>
 
@@ -79,7 +88,7 @@ permalink: /faq/
 <div class="card" style="padding: 16px 20px; margin-bottom: 12px;">
 <details>
 <summary>Can anyone else listen to my baby monitor?</summary>
-<p>Audio only streams between devices you've explicitly paired. Pairing a new device requires entering the 6-character code <em>and</em> being approved on the baby device — nobody can join just by knowing the code, and pairing is only possible while you've put the baby device in pairing mode. The connection is encrypted, and the peer-to-peer architecture means there's no server for anyone to intercept. The baby device always displays how many parent devices are currently connected — so you can verify at a glance that only the devices you expect are listening.</p>
+<p>Audio only streams between devices you've explicitly paired. Pairing a new device requires the 8-character code, or the QR code shown beside it, <em>and</em> being approved on the baby device — nobody can join just by knowing the code, and pairing is only possible while you've put the baby device in pairing mode. The connection is encrypted, and the peer-to-peer architecture means there's no server for anyone to intercept. The baby device always displays how many parent devices are currently connected — so you can verify at a glance that only the devices you expect are listening.</p>
 </details>
 </div>
 

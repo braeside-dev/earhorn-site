@@ -37,7 +37,7 @@ permalink: /download/
 
 1. **Download EarHorn** on both devices from the App Store
 2. **Choose roles** — tap "Baby" on the nursery phone, "Parent" on yours
-3. **Pair with a code** — start pairing on the baby device to get a 6-character code, enter it on the parent device, then approve the request on the baby device
+3. **Pair** — start pairing on the baby device, then scan its QR code with the parent phone's Camera app or type in the 8-character code shown underneath, and approve the request on the baby device
 4. **Start monitoring** — EarHorn listens and alerts you when sound is detected
 
 Setup takes under a minute. Once paired, your devices reconnect automatically.

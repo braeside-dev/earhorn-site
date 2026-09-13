@@ -44,8 +44,8 @@ permalink: /
         </div>
         <div class="step">
             <div class="step-num">2</div>
-            <h3>Pair with a code</h3>
-            <p>Enter the baby device's 6-character code on the parent, then approve the request on the baby device.</p>
+            <h3>Pair</h3>
+            <p>Scan the baby device's QR code with the parent phone's camera, or type in the 8-character code shown underneath. Then approve the request on the baby device.</p>
         </div>
         <div class="step">
             <div class="step-num">3</div>
